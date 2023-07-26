@@ -61,14 +61,14 @@ const getContacts = async () => {
 export const CONTENTS = {
   help: () =>
     COMMANDS.map(
-      (command) => `<div style="display: flex; justify-content: space-between;">
+      (command) => `<span style="display: flex; justify-content: space-between;">
         <p style="font-size: 15px">${command.command}</p>
         <p>${command.description}</p>
-      </div>`
+      </span>`
     ).join("") +
     `<br />
-      <div class="command">Type one of the above to view. For eg. <span style="color: var(--secondary)">about</span></div>`,
-  about: () => `Hello and welcome! My name is Yajush,I'm ${getAge(
+      <span class="command">Type one of the above to view. For eg. <span style="color: var(--secondary)">about</span></span>`,
+  about: () => `<span>Hello and welcome! My name is Yajush,I'm ${getAge(
     "June 24, 2002"
   )} and a dedicated full-stack and frontend developer, I have a strong passion for Python.
     <br/><br/>
@@ -80,17 +80,18 @@ export const CONTENTS = {
     <br /><br />
     Workspace
     <br />
+    </span>
     <div style=" display: flex; flex-direction: row;">
       <img src="https://img.shields.io/badge/NVIDIA-GTX1060ti-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />
       <img src="https://img.shields.io/badge/AMD-Ryzen_5_5600X-ED1C24?style=for-the-badge&logo=amd&logoColor=white" />
     </div>
   `,
   education:
-    () => `I am pursuing my Bachelor of Engineering (BE) degree in Computer Science with a specialization in Artificial Intelligence and Machine Learning at <a style="color:#5fdfff" href="https://www.cuchd.in/" target="_blank">Chandigarh University, Mohali</a>
+    () => `<span>I am pursuing my Bachelor of Engineering (BE) degree in Computer Science with a specialization in Artificial Intelligence and Machine Learning at <a style="color:#5fdfff" href="https://www.cuchd.in/" target="_blank">Chandigarh University, Mohali</a></span>
     <br /><br />
-    I have completed my 12th from <a style="color:#5fdfff" href="https://theindianschool.in/" target="_blank">The Indian School, New Delhi</a> 
+    <span>I have completed my 12th from <a style="color:#5fdfff" href="https://theindianschool.in/" target="_blank">The Indian School, New Delhi</a></span>
     <br /><br />
-    I have completed my 10th from <a href="http://sssvjam.org/" target="_blank">Shree Satya Sai Vidyalaya, Jamnagar</a>
+    <span>I have completed my 10th from <a href="http://sssvjam.org/" target="_blank">Shree Satya Sai Vidyalaya, Jamnagar</a></span>
     `,
   skills: () => `
   <div style=" display: flex; flex-direction: row; gap: 0.2rem;">

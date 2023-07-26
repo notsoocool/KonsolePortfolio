@@ -59,13 +59,13 @@ export default function Terminal() {
         <div className="fixed z-30 w-screen h-screen flex justify-center items-center">
 			<div className="bg-black shadow-2xl rounded-lg backdrop-blur-xl  font-cascadia bg-opacity-30 h-4/6 w-5/6 max-w-[1000px] overflow-y-scroll flex-col">
 				<div className=" w-full h-5 bg-black flex justify-around items-center">
-				<div>
+					<div>
 
-				</div>
-				<span className=" text-[0.6rem]">~:portfolio - Konsole</span>
-				<div>
+					</div>
+					<span className=" text-[0.6rem]">~:portfolio - Konsole</span>
+					<div>
 
-				</div>
+					</div>
 				</div>
 				<div className="flex">
 					<div className=" w-[20rem] h-[20rem] bg-logo bg-cover"></div>
