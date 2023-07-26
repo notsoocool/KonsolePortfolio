@@ -14,7 +14,8 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'logo': "url('/photos/Logo2.png')"
+        'logo': "url('/photos/Logo2.png')",
+        'load': "url('/photos/load.gif')",
       },
       colors: {
         'hotpink': '#c70055',
