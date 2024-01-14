@@ -3,7 +3,7 @@ export const personalInfo = {
     surname: "Vyas",
     age: 18,
     profession: "Student",
-    interest: "Fullstack Development",
+    interest: "Machine Learning & Fullstack Development",
     email: "vyasyajush@gmail.com",
     degree: "B.E CSE Specialization(AI & ML)",
     univ: "Chandigarh University",
