@@ -43,7 +43,7 @@ export default function Mainez() {
   <div style={{ background: `url(${background})`, backgroundSize: 'cover', backgroundRepeat:" no-repeat"}} >
   <div className="overflow-hidden bg-cover bg-no-repeat h-screen flex flex-col items-center justify-center w-full" ref={constraintsRef}>
     <Head>
-      <title>Portfolio</title>
+      <title>Yajush Vyas-Konsole</title>
       <meta name="description" content="Yajush Vyas Portfolio" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
