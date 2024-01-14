@@ -1,30 +1,38 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ["./src/**/**/*.{ts,tsx,js,jsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
-        cascadia: ['Cascadia Code', 'sans-serif'],
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'logo': "url('/photos/Logo2.png')",
-        'load': "url('/photos/load.gif')",
-      },
       colors: {
+        'txtc' : '#a9b1d6',
+        'primc': '#bb9af7',
+        'secc' : '#2ac3de',
+        'bbg'  : '#1a1b26',
+        'mxim' : '#00CA4E',
+        'minm' : '#FFBD44',
+        'clcs' : '#FF605C',
+        'topba': '#1C1C1EFF',
         'hotpink': '#c70055',
         'turquoise': '#5fdfff',
         'orange': '#df5f00',
         'limegreen': '#87ff00',
         'purple': '#af5fff',
       },
+      fontFamily: {
+        Fira: ['Fira Code', 'sans-serif'],
+        Quicksand: ['Quicksand', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        cascadia: ['Cascadia Code', 'sans-serif'],
+      },
+      backgroundImage: {
+        'background': "url('/images/bg2.jpg')",
+        'background2': "url('/images/bg1.jpg')",
+        'logo': "url('/images/Logo2.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
     },
   },
-  plugins: [],
+  variants: {
+    extend: {},
+  },
+  plugins: []
 }
