@@ -21,13 +21,15 @@ $ yarn dev
 ### Project Structure
 
 - `pages/`: Directory containing Next.js pages.
+- `components/`: Directory for all components.
+- `components/`: Directory for changing personal data.
 - `styles/`: Directory for CSS styles.
 - `public/`: Static assets like images.
 
 ### Technologies Used
 
 - Frontend: React.js, Next.js
-- Styling: CSS (styled-components, or any other styling solution you've used)
+- Styling: TailwincssCSS
 - Package Manager: Yarn
 
 Feel free to reach out if you have any questions or collaboration ideas.
