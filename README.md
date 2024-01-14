@@ -1,6 +1,6 @@
-## Custom Portfolio
+## Konsole Portfolio
 
-Welcome to my custom portfolio repository! This portfolio is built with Next.js and styled for a sleek and modern design.
+Welcome to my Konsole portfolio repository! This portfolio is built with Next.js and styled for a sleek and modern terminal design.
 
 ### Quick Start
 
