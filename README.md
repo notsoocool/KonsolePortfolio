@@ -1,21 +1,6 @@
-Certainly! If your portfolio is built with Next.js and uses Yarn as the package manager, you can update the README to reflect that. Here's an example:
+## Konsole Portfolio
 
-```markdown
-# Custom Portfolio README
-
-```
-
-```bash
-$ cd Custom-Portfolio
-$ ls
-pages/  styles/  public/  node_modules/  next.config.js  package.json  yarn.lock
-
-$ cat README.md
-```
-
-## Custom Portfolio
-
-Welcome to my custom portfolio repository! This portfolio is built with Next.js and styled for a sleek and modern design.
+Welcome to my Konsole portfolio repository! This portfolio is built with Next.js and styled for a sleek and modern terminal design.
 
 ### Quick Start
 
@@ -36,13 +21,15 @@ $ yarn dev
 ### Project Structure
 
 - `pages/`: Directory containing Next.js pages.
+- `components/`: Directory for all components.
+- `components/`: Directory for changing personal data.
 - `styles/`: Directory for CSS styles.
 - `public/`: Static assets like images.
 
 ### Technologies Used
 
 - Frontend: React.js, Next.js
-- Styling: CSS (styled-components, or any other styling solution you've used)
+- Styling: TailwincssCSS
 - Package Manager: Yarn
 
 Feel free to reach out if you have any questions or collaboration ideas.
