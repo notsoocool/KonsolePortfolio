@@ -1,18 +1,3 @@
-Certainly! If your portfolio is built with Next.js and uses Yarn as the package manager, you can update the README to reflect that. Here's an example:
-
-```markdown
-# Custom Portfolio README
-
-```
-
-```bash
-$ cd Custom-Portfolio
-$ ls
-pages/  styles/  public/  node_modules/  next.config.js  package.json  yarn.lock
-
-$ cat README.md
-```
-
 ## Custom Portfolio
 
 Welcome to my custom portfolio repository! This portfolio is built with Next.js and styled for a sleek and modern design.
